@@ -366,12 +366,12 @@ var ctrl = function(err, p, ctx) {
 
     // Rewind, one "seekCount" per press
     left: function() {
-      seek(-30);
+      seek(-10);
     },
 
     // Forward, one "seekCount" per press
     right: function() {
-      seek(30);
+      seek(10);
     }
   };
 

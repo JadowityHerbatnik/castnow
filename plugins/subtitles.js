@@ -46,7 +46,7 @@ var attachSubtitles = function(ctx) {
   }
   ctx.options.playlist[0].media.textTrackStyle = {
     backgroundColor: '#00000000',
-    foregroundColor: ctx.options['subtitle-color'] || '#FFFF00FF',
+    foregroundColor: ctx.options['subtitle-color'] || '#FFFFFFFF',
     edgeType: 'OUTLINE',
     edgeColor: '#000000FF',
     fontScale: ctx.options['subtitle-scale'],
